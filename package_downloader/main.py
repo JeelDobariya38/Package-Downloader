@@ -1,7 +1,9 @@
 from .app import downloader
 
 
-def run():
+def run() -> None:
+    """Runs the App"""
+
     print("Welcome to Package Downloader\n")
 
     url: str = input("Enter a url of Resource: ")
