@@ -1,4 +1,4 @@
-import requests  # type: ignore
+import requests
 
 
 def download(url: str, name: str) -> str:
